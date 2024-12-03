@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "0101": "deno run --watch main.ts"
+  },
+  "imports": {
+  }
+}
