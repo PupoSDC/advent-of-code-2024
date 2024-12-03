@@ -20,8 +20,6 @@ for (const match of matches) {
     validMatches.push(match[0]);
 }
 
-console.log(validMatches);
-
 const sum = validMatches
     .map(m => m.matchAll(/\d+/gm).map(Number).toArray())
     .reduce((s, v) => s + (v[0] * v[1]), 0);
